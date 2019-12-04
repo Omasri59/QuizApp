@@ -10,6 +10,10 @@ namespace QuizApp
 
         public string answer { get; set; }
 
+        public int difficulty { get; set; }
+
+        public string category { get; set; }
+
         public Question()
         {
             question = "";
